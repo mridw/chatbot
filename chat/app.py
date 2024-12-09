@@ -16,7 +16,7 @@ os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # MongoDB connection
-mongo_client = MongoClient("mongodb+srv://naman0908be21:boi@cluster0.wm6dn.mongodb.net/")
+mongo_client = MongoClient("mongodb+srv:")
 db = mongo_client['chat_database']
 collection = db['chats']
 
